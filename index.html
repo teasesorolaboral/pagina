@@ -269,7 +269,7 @@ document.querySelectorAll('[data-abrir-chat]').forEach(b=>b.addEventListener('cl
 document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!chat.hidden){ chat.hidden=true; fab.focus(); } });
 
 /* ===== VACANTES: se leen de una hoja de Google publicada como CSV ===== */
-const VACANTES_CSV=''; // enlace "Publicar en la web" (CSV) de la hoja Vacantes TAL
+const VACANTES_CSV='https://docs.google.com/spreadsheets/d/e/2PACX-1vTjL-ibv5pRfn2K-jrvoxgfvWFVtEAm_jDHp55MDaAebqEXSUK2G6KxMtToug8Lzy76hXJEOHvt6n8G/pub?gid=523957754&single=true&output=csv'; // enlace "Publicar en la web" (CSV) de la hoja Vacantes TAL
 const FORM_URL='';     // enlace del Formulario de Google para postularse
 (function(){
   const box=document.getElementById('vac-list');
